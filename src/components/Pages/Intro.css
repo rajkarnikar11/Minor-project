@@ -1,0 +1,92 @@
+.bg{
+    background-image: url("boat.jpg");
+    height: 93.2%;
+    width: 100%;
+    
+    background-size: cover;
+    position: absolute;
+    
+
+    
+    
+}
+.box{
+    /* padding-top: 50px; */
+    width: 500px;
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+    height: 50vh;
+    text-align: center;
+    margin-top: 70px;
+    opacity: .8;
+    /* border: 1px solid rgb(34, 34, 34); */
+    box-shadow: 0px 10px 10px black;
+    display: block;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+.buttons{
+    margin-bottom: 10px;
+    
+}
+.adv{
+    
+    padding-bottom: 25px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 42px;
+    ;
+    text-decoration-style: none;
+    padding-top: 25px;
+    box-shadow: 0px 8px 10px black;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    background-color: black;
+
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0),rgb(29, 28, 28), rgb(29, 28, 28),rgba(255,0,0,0) ); */
+}
+
+    
+
+.box a{
+    background-color: rgb(15, 15, 15);   
+    color: whitesmoke;
+    padding: 10px; 
+    border-radius:50px ;
+    opacity: 1;
+    display: inline-block; 
+    padding-left: 20 px;
+    padding-right: 20px; 
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+    
+     
+}
+.space{
+    margin: 10px;
+    /* justify-content: space-between; */
+}
+.bg a:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    box-shadow: 0px 8px 10px black;
+}
+@media all and (max-width: 768px){
+    .box{
+        /* padding-top: 50px; */
+        width: 400px;
+        background-color: rgb(252, 252, 252);
+        margin: auto;
+        height: 60vh;
+        text-align: center;
+        margin-top: 70px;
+        opacity: .8;
+        /* border: 1px solid rgb(34, 34, 34); */
+        box-shadow: 0px 10px 10px black;
+        display: block;
+        border-radius: 5px;
+        
+    }
+}    
