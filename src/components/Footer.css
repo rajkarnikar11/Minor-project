@@ -1,5 +1,5 @@
 .footer{
-    background-color:rgb(17, 17, 17);
+    background-color:rgb(3, 3, 3);
     text-align: center;
     padding: 15px;
     font-family: 'Roboto', sans-serif;
@@ -11,4 +11,7 @@
     
     
     
+}
+.ln{
+    height: 2px;
 }

@@ -21,6 +21,7 @@ export default function Home() {
             <>
                 
                 <Slider />
+                abc
                 <CardSection />
 
                 <Footer />
